@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: #ffffff;
+  background-color: rgb(13, 17, 23);
   font-family: "Roboto", sans-serif;
 }
 .hero {
@@ -10,7 +10,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: calc(100vh - 150px);
+  height: calc(100vh - 80px);
+  margin-top: 10px;
 }
 .hero h1 {
   font-size: 80px;
@@ -28,6 +29,7 @@ nav {
   display: flex;
   position: sticky;
   top: 0px;
+  bottom: 0px;
   overflow: hidden;
 }
 nav a {
@@ -38,7 +40,7 @@ nav a {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: #000;
+  color: #33ddd9;
   transition: 0.2s ease-in-out all;
   font-weight: 500;
   text-decoration: none;
@@ -47,7 +49,7 @@ nav a {
 }
 
 nav a:hover {
-  background: rgba(132, 0, 255, 0.288);
+  background: rgba(34, 17, 133, 0.425);
   backdrop-filter: blur(20px);
 }
 
@@ -63,7 +65,7 @@ nav a:hover {
 
 .content {
   position: relative;
-  border: solid whitesmoke;
+  border: 0.1px solid rgb(136, 136, 136);
   border-radius: 50px;
   z-index: 1;
   padding: 20px;
@@ -90,7 +92,7 @@ nav a:hover {
 
 .dev:hover {
   color: #221c97;
-  animation: bounce 0.5s ease infinite;
+  animation: bounce 0.5s ease;
 }
 
 @keyframes bounce {
@@ -120,22 +122,24 @@ nav a:hover {
   justify-content: center;
 }
 .seccion .card {
-  background-color: #ffffff;
+  background-color: rgb(1, 4, 9);
   height: 90%;
   padding: 40px;
   border-radius: 5px;
   box-shadow: (149, 157, 165, 0.2) 0px 8px 24px;
+  border: 0.1px solid rgb(136, 136, 136);
 }
 
 .seccion h1 {
   font-size: 48px;
   margin-bottom: 20px;
+  color: #ffffff;
 }
 
 .seccion p {
   line-height: 38px;
   margin-bottom: 40px;
-  color: #494949;
+  color: #ffffff;
   font-size: 20px;
 }
 

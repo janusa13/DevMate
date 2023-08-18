@@ -2,31 +2,84 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
     <title>DevMate</title>
   </head>
   <body>
-    <header class="menu">
-      <img class="logo-img" src="recursos/img/davematepng.png" />
-      <nav>
-        <div class="botones">
-          <a class="boton-menu" href="">Que es DevMate</a>
-          <a class="boton-menu" href="">Problemáticas</a>
-          <a class="boton-menu" href="">Diagramas</a>
-          <a class="boton-menu" href="">Powerpoint</a>
-          <a class="boton-menu" href="">Poster</a>
-          <a class="boton-menu" href="">Documento</a>
+    <div class="hero">
+      <div class="seccionVideo">
+        <div class="video-container">
+          <video autoplay muted loop id="background-video">
+            <source src="recursos/videos/DevMate.mp4" type="video/mp4" />
+          </video>
+          <div class="content">
+            <img class="img-background" src="recursos/img/davematepng.png" />
+            <h1 class="dev">DEVMATE</h1>
+            <p1 class="homeText"
+              >Primera platadorma de estudio descentralizado</p1
+            >
+          </div>
         </div>
+      </div>
+    </div>
+      <img class="logo-img" src="recursos/img/davematepng.png" />
+      <nav id="menu">
+        
+          <a class="boton-menu" href="index.html">Inicio</a>
+          <a class="boton-menu" href="#1">Que es DevMate</a>
+          <a class="boton-menu" href="#2">Problemáticas</a>
+          <a class="boton-menu" href="#3">Diagramas</a>
+          <a class="boton-menu" href="#4">Powerpoint</a>
+          <a class="boton-menu" href="#5">Poster</a>
+          <a class="boton-menu" href="#6">Documento</a>
+          <span class="indicador" id="indicador"></span>
+        
       </nav>
-    </header>
-    <div class="video-container">
-      <video autoplay muted loop id="background-video">
-        <source src="recursos/videos/DevMate.mp4" type="video/mp4" />
-      </video>
-      <div class="content">
-        <h1>DEVMATE</h1>
-        <p1>Primera platadorma de estudio descentralizado</p1>
+    </div>
+    <div class="secciones">
+      
+      <div class="seccion" id="1">
+        <div class="card">
+          <h1>Que es DEVMATE?</h1>
+          <p1>Primera platadorma de estudio descentralizado</p1>
+        </div>
+      </div>
+      <div class="seccion" id="2">
+        <div class="card">
+          <h1>Problemática</h1>
+          <p1>Problema bla bla bla</p1>
+        </div>
+      </div>
+      <div class="seccion" id="3">
+        <div class="card">
+          <h1>Diagramas</h1>
+          <p1>los diagramas</p1>
+        </div>
+      </div>
+      <div class="seccion" id="4">
+        <div class="card">
+          <h1>PowerPoint</h1>
+          <p1>PowerPoint bla bla bla</p1>
+        </div>
+      </div>
+      <div class="seccion" id="5">
+        <div class="card">
+          <h1>Poster</h1>
+          <p1>Poster bla bla blaaa</p1>
+        </div>
+      </div>
+      <div class="seccion" id="6">
+        <div class="card">
+          <h1>documento</h1>
+          <p1>bla bla bla bla bla blaaa</p1>
+        </div>
       </div>
     </div>
   </body>

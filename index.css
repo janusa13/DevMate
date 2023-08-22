@@ -163,12 +163,6 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
-.seccion iframe {
-  width: 100%;
-  vertical-align: top;
-  margin-bottom: 20px;
-}
-
 nav .indicador {
   width: 0px;
   height: 7px;
@@ -195,4 +189,9 @@ nav .indicador {
 .link-power {
   color: #ffffff;
   text-decoration: none;
+}
+
+.pdf {
+  width: 718px;
+  height: 1016px;
 }

@@ -148,7 +148,22 @@ nav a:hover {
   font-size: 20px;
 }
 
+.seccion h3 {
+  color: #ffffff;
+}
 .seccion img {
+  width: 100%;
+  vertical-align: top;
+  margin-bottom: 20px;
+}
+
+.seccion video {
+  width: 100%;
+  vertical-align: top;
+  margin-bottom: 20px;
+}
+
+.seccion iframe {
   width: 100%;
   vertical-align: top;
   margin-bottom: 20px;

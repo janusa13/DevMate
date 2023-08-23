@@ -196,50 +196,84 @@ nav .indicador {
   height: 1016px;
 }
 
-.pie{
-  background-color: rgb(1,4,9);
-  color: #acacac;
-  display: flex;
-  align-items: center;
+.pie-pagina {
+  background-color: rgb(1, 4, 9);
+  color: #ffffff;
   border: 0.1px solid rgb(136, 136, 136);
-  border-bottom: 0px;
-  bottom: 0px;
-  padding-left:1rem ;
 }
 
-.names{
+.pie-pagina .grupo-1 {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 30px 0;
+}
+
+.pie-pagina .box {
+  padding: 0 15px;
+}
+
+.pie-pagina .box.instituto-box {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+  align-items: flex-start;
 }
 
-.names a{
-  align-items:left;
-  color: #acacac;
-  text-decoration: none;
- 
+.pie-pagina .instituto-title {
+  margin-bottom: 10px;
+  font-size: 18px;
 }
 
-.names a:hover{
-  text-decoration: underline;
+.pie-pagina .instituto-content {
+  display: flex;
+  align-items: flex-start;
 }
-.logos{
-  position: relative;
+
+.pie-pagina .instituto-text {
+  margin-right: 20px;
+}
+
+.pie-pagina .grupo-1 .box figure {
   display: flex;
   justify-content: center;
-  width: 10%;
-  left: 340px;
+  align-items: center;
 }
 
-.gitLogo{
-  width: 50%;
+.pie-pagina .grupo-1 .box figure img {
+  width: 100px;
+  transition: filter 300ms ease;
 }
 
-.gitLogo:hover{
-  filter: brightness(50%);
+.pie-pagina .grupo-1 .box figure img:hover {
+  filter: opacity(70%);
 }
 
-.insti{
-  position: relative;
-  left: 400px;
+.pie-pagina .grupo-1 .box h2 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.pie-pagina .grupo-1 .box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.pie-pagina a {
+  color: #efefef;
+  text-decoration: none;
+}
+
+.pie-pagina .grupo-1 .box li {
+  margin-bottom: 5px;
+}
+
+.pie-pagina .grupo-2 {
+  background-color: #221c97;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.pie-pagina .grupo-2 small {
+  font-size: 17px;
 }

@@ -195,3 +195,51 @@ nav .indicador {
   width: 718px;
   height: 1016px;
 }
+
+.pie{
+  background-color: rgb(1,4,9);
+  color: #acacac;
+  display: flex;
+  align-items: center;
+  border: 0.1px solid rgb(136, 136, 136);
+  border-bottom: 0px;
+  bottom: 0px;
+  padding-left:1rem ;
+}
+
+.names{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.names a{
+  align-items:left;
+  color: #acacac;
+  text-decoration: none;
+ 
+}
+
+.names a:hover{
+  text-decoration: underline;
+}
+.logos{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 10%;
+  left: 340px;
+}
+
+.gitLogo{
+  width: 50%;
+}
+
+.gitLogo:hover{
+  filter: brightness(50%);
+}
+
+.insti{
+  position: relative;
+  left: 400px;
+}

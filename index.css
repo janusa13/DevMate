@@ -197,6 +197,7 @@ nav .indicador {
 }
 
 .pie-pagina {
+  display: flexbox;
   background-color: rgb(1, 4, 9);
   color: #ffffff;
   border: 0.1px solid rgb(136, 136, 136);
@@ -241,7 +242,7 @@ nav .indicador {
 }
 
 .pie-pagina .grupo-1 .box figure img {
-  width: 100px;
+  width: 150px;
   transition: filter 300ms ease;
 }
 
@@ -264,12 +265,17 @@ nav .indicador {
   text-decoration: none;
 }
 
+.pie-pagina a:hover {
+  color: #707070;
+  text-decoration: underline;
+}
+
 .pie-pagina .grupo-1 .box li {
   margin-bottom: 5px;
 }
 
 .pie-pagina .grupo-2 {
-  background-color: #221c97;
+  background-color: #141158;
   padding: 10px 0;
   text-align: center;
 }
